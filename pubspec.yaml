@@ -1,0 +1,82 @@
+name: uba_movieapp
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_spinkit: ^3.1.0
+  firebase_core: ^1.3.0
+  firebase_auth: ^2.0.0
+  google_sign_in: ^5.0.4
+  cloud_firestore: ^2.3.0
+#  provider: ^4.0.0
+  rxdart: ^0.23.1
+  permission_handler: ^4.2.0+hotfix.3
+  connectivity: ^0.4.6+1
+  flutter_facebook_login: ^3.0.0
+  http: ^0.13.3
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+#dependency_overrides:
+#  http: ^0.12.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+  #   - images/a_dot_ham.jpeg
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: fonts/OpenSans-Light.ttf
+          weight: 300
+        - asset: fonts/OpenSans-Regular.ttf
+          weight: 400
+        - asset: fonts/OpenSans-SemiBold.ttf
+          weight: 500
+        - asset: fonts/OpenSans-Bold.ttf
+          weight: 600
+        - asset: fonts/OpenSans-ExtraBold.ttf
+          weight: 700
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
